@@ -15,7 +15,7 @@ import model.Person;
 
 @Category(IntegrationTest.class)
 public class PersonIT extends Mockito {
-
+// conventie: numele metodelor in java (fie ca sunt parte din test classes sau nu) incep cu litera mica si sunt camelCase. in cazul tau: personServletPostIT
 	@Test
 	public void PersonServlet_Post_IT() throws ServletException, IOException {
 
